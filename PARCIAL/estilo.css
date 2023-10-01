@@ -1,0 +1,109 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Helvetica;
+    background-color: #474747; /* Fondo gris claro */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #ff6600; /* Fondo naranja vivo */
+    padding: 10px 0;
+    color: #000000;
+    margin-right: 30px; /* Espacio de 30px entre palabras */
+    font-size: 20px; /* Aumentar el tamaño de fuente a 24px */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos de las secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h1 {
+	font-size: 50px;
+}
+h1, h2 {
+    color: #ff6600; /* Títulos naranja vivo */
+}
+
+/* Estilos del formulario de contacto */
+form {
+    text-align: left; /* Alineación del contenido del formulario */
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Colocar las etiquetas en líneas separadas */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff4500; /* Cambio de color al pasar el cursor sobre el botón */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.imagenes {
+    width: 30px; /* Tamaño de las imágenes de redes sociales */
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilos específicos para la primera sección */
+#Inicio {
+    text-align: center; /* Texto de la primera sección centrado */
+}
+
+.forms{
+	max-width: 500px;
+}
